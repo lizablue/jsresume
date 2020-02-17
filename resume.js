@@ -1,8 +1,9 @@
 let coolSkills = ["wakeboarding", "robotics", "python"];
 let mySkills = ["Spanish", "Piano", "Robotics", "DIY Projects", "Wakeboarding", "HTML", "CSS", "Javascript", "Python"]
+let name = "liz mccreight";
+let cap = name.toUpperCase();
 
-
-console.log("Name: Liz McCreight");
+console.log(cap);
 console.log("Career: Full Stack Developer");
 console.log("Bio: Licensed Boat Driver");
 console.log(" ");
