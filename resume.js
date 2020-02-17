@@ -1,4 +1,4 @@
-let coolSkills = ["wakeboarding", "robotics", "python"];
+let coolSkills = ["Wakeboarding", "Robotics", "Python"];
 let mySkills = ["Spanish", "Piano", "Robotics", "DIY Projects", "Wakeboarding", "HTML", "CSS", "Javascript", "Python"]
 let name = "liz mccreight";
 let cap = name.toUpperCase();
@@ -6,6 +6,13 @@ let cap = name.toUpperCase();
 function displayPosition(company, title, description) {
     console.log("* " + title + " at " + company + " - " + description);
 };
+function displaySkills(skill) {
+    if (coolSkills.indexOf(skill) !== -1) {
+        console.log("* BAM: " + skill);
+        } else {
+        console.log("* " + skill);
+        }
+    };
 
 console.log(cap);
 console.log("Career: Full Stack Developer");
@@ -24,12 +31,12 @@ displayPosition("Nature Company", "Social Media Manager", "managed social media 
 displayPosition("Resort", "Digital Marketer", "managed digital ads and used Google Analytics to optimize");
 console.log(" ");
 console.log("My Skills:");
-console.log("*" + "Spanish");
-console.log("*" + "Piano");
-console.log("*" + "Robotics");
-console.log("*" + "DIY Projects");
-console.log("*" + "Wakeboarding");
-console.log("*" + "HTML");
-console.log("*" + "CSS");
-console.log("*" + "Javascript");
-console.log("*" + "Python");
+displaySkills("Spanish");
+displaySkills("Piano");
+displaySkills("Robotics");
+displaySkills("DIY Projects");
+displaySkills("Wakeboarding");
+displaySkills("HTML");
+displaySkills("CSS");
+displaySkills("Javascript");
+displaySkills("Python");
